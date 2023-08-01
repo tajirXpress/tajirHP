@@ -1,0 +1,1735 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+@media only screen and (min-width: 1300px) {
+  .maindiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .headerdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-left: 20px;
+  }
+  .topdiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    color: transparent;
+    width: 219px;
+    height: 57px;
+    flex-shrink: 0;
+  }
+  #helpcentertext {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  #topdivleft {
+    margin-right: 28px;
+    display: flex;
+    width: 130px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #topdivtext {
+    width: 150px;
+    text-align: center;
+    border-left: 1px solid black;
+    text-decoration: none;
+    color: #000;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  #orders {
+    text-decoration: none;
+    color: #000;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .Header {
+    width: 1366px;
+  }
+  #helpcentertext :nth-child(1) {
+    border: none;
+  }
+  #cartbox {
+    text-decoration: none;
+    display: flex;
+    width: 65px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #26db2e;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  #searchbar {
+    width: 1078px;
+    height: 29px;
+    flex-shrink: 0;
+    color: #7d7d7d;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 25px;
+    border-radius: 5px;
+    background: #fff;
+    border: none;
+  }
+  .twobarcolor {
+    display: flex;
+    width: 100vw;
+    /* width: 1366px; */
+    /* height: 80px; */
+    flex-shrink: 0;
+    background: #dab34c;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  .secondbar button {
+    display: none;
+  }
+  .secondbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .the2ndbardiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .firstbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .secondbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #subbox {
+    margin: 0;
+    color: black;
+    width: 215.6px;
+    height: 28px;
+    flex-shrink: 0;
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  #subbox2 {
+    margin: 0;
+    color: black;
+    width: 215.6px;
+    height: 28px;
+    flex-shrink: 0;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .twobardiv {
+    width: 1366px;
+    height: 80px;
+    flex-shrink: 0;
+    gap: 8px;
+    margin-left: 523px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .categoryboxcenter {
+    display: none;
+  }
+  .shopDept h6 {
+    display: flex;
+    margin: 0;
+    width: 217px;
+    border-radius: 0px 0px 5px 5px;
+    background: #26db2e;
+    height: 38px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .shopDept h4 {
+    padding-left: 18.35px;
+    display: flex;
+    margin: 0;
+    width: 199px;
+    height: 37px;
+    border-radius: 5px 5px 0px 0px;
+    background: #3f3b3b;
+    color: #dcdcdc;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-shrink: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .spcialdealimg {
+    width: 250px;
+    height: 102px;
+  }
+  .shopDept {
+    position: relative;
+    z-index: 999;
+    /* position: absolute; */
+    top: -73px;
+    left: -295px;
+    width: 217px;
+    height: 545px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 19px 0px rgba(0, 0, 0, 0.15);
+  }
+  .searchbar {
+    margin-top: 8px;
+  }
+  .subdept {
+    margin-top: 10px;
+    gap: 14.85px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 19.22px;
+  }
+  .dept {
+    display: flex;
+    width: 131.149px;
+    height: 7.288px;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+  }
+  .deptlinks h5 {
+    display: flex;
+    width: 190px;
+    height: 7.288px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: black;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 10px;
+  }
+  .deptlinks {
+    text-decoration: none;
+  }
+  .imgslider {
+    display: none;
+  }
+  .pcimg {
+    margin-left: 126px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .SpecialDeal {
+    margin-left: -60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .pcimg {
+    margin-top: -537px;
+    margin-left: -65px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .pcimgone {
+    width: 195px;
+    height: 270px;
+  }
+  .markettop {
+    position: relative;
+    top: -470px;
+    left: 743px;
+    width: 280px;
+    height: 460px;
+    border-radius: 5px;
+    background: rgba(108, 40, 149, 0.1);
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
+  }
+  .shopdiv {
+    margin-top: -17px;
+  }
+  #marketimg {
+    color: transparent;
+    width: 120px;
+    height: 80px;
+    flex-shrink: 0;
+    filter: drop-shadow(0px 8px 15px rgba(0, 0, 0, 0.15));
+    border-radius: 15px;
+  }
+  .shopdiv button {
+    position: absolute;
+    bottom: -575px;
+    width: 303px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 5px 5px;
+    background: #dab34c;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: none;
+  }
+  .shopdiv h2 {
+    padding-left: 19px;
+    display: flex;
+    width: 262px;
+    height: 36px;
+    border-radius: 5px;
+    background: #6c2895;
+    color: #dcdcdc;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+  }
+  .onemarketbox {
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .oneimgmarket button {
+    margin-top: -18px;
+    width: 285px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 5px 5px;
+    background: #dab34c;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+  }
+  .oneimgmarket {
+    margin-top: 15px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .specialdealmobile {
+    display: none;
+  }
+  .productcatnamebtn h2 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .productcatnamebtn button {
+    border: none;
+    width: 112px;
+    height: 22px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: #dab34c;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .productcatnamebtn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25px;
+    width: 1018px;
+  }
+  .productimg {
+    margin-top: 5px;
+    margin-left: 6px;
+    width: 188px;
+    height: 122px;
+    flex-shrink: 0;
+    border-radius: 7px;
+  }
+  .oneproduct {
+    width: 200px;
+    height: 278px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #fff;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  }
+  .oneproductc1 h6 {
+    margin: 0;
+    width: 20px;
+    height: 14px;
+    border-radius: 2px;
+    background: #e8e8e8;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #yt {
+    color: red;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  #star {
+    color: yellow;
+  }
+  .oneproductc1 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    margin-left: 168px;
+  }
+  .multiproducts {
+    gap: 4.2px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .abovepart {
+    height: 500px;
+  }
+  .coloredarea {
+    height: 985px;
+    width: 1366px;
+  }
+
+  .oneproduct h1 {
+    margin-left: 6px;
+    margin-top: 0%;
+    color: #000;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .oneproductc2 h5 {
+    margin: 0;
+  }
+  .oneproductc2 {
+    margin-top: 7px;
+    margin-left: 6px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    color: #000;
+    font-family: Roboto;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .productc2size h4 {
+    margin: 0;
+    padding: 1px 3px 1px 3px;
+    border-radius: 2px;
+    border: 1px solid #d9d9d9;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .productc2size {
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #oneproductc3img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    border-radius: 1px;
+    border: 1px solid #c6c5c9;
+  }
+
+  .oneproductc3 h4 {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .oneproductc3 div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+  }
+  .oneproductc3 {
+    margin-left: 6px;
+    margin-top: 8px;
+    gap: 1px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .productc4div strike {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .productc4div h3 {
+    margin: 0;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .oneproductc4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 188px;
+    height: 33px;
+    margin: 6px;
+    background: #dab34c;
+    border-radius: 7px;
+  }
+  .productc4div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  .productc4btn {
+    border-radius: 7px;
+    width: 59px;
+    height: 25px;
+    flex-shrink: 0;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .productc4btn h2 {
+    font-size: 18px;
+    color: #dab34c;
+    margin: 0;
+    margin-top: 4px;
+  }
+  .productc4btn button:disabled,
+  button[disabled] {
+    background: #bfbdbd;
+  }
+  .productc4btn button {
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    background: #dab34c;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .mobileads {
+    display: none;
+  }
+  .sideads {
+    width: 270px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    left: 1078px;
+    bottom: 990px;
+  }
+  .sideadone {
+    width: 270px;
+    height: 312px;
+    border: 7px solid white;
+    /* box-shadow: 0 2px 2px 0 grey; */
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.09);
+  }
+  .actualspedeal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+  }
+  #spcialdealimg {
+    width: 248px;
+    height: 116px;
+    border-radius: 2px;
+    border: 7px solid white;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.09);
+  }
+  .abovefooter {
+    margin-top: 35px;
+    width: 1366px;
+    height: 229px;
+  }
+  .footerimg {
+    margin-left: 22px;
+  }
+  .footlinksall {
+    gap: 80px;
+    margin-left: 22px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .footlinkdiv h3 {
+    margin: 0;
+    gap: 2px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .footlinkdiv h2 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .footlinkdiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .icons div {
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .icons {
+    margin-left: 385px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .lowerfooter h2 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .lowerfooter h3 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .lowerfooter {
+    gap: 5px;
+    width: 1350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .someothercoloredarea {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .lowerfooterdiv {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background: #d9d9d9;
+    flex-direction: row;
+  }
+  .gridentcenter {
+    margin-top: -18px;
+    height: 45px;
+    width: 100vw;
+  }
+}
+@media only screen and (max-width: 1299px) {
+  .headerdiv {
+    display: flex;
+    width: 328px;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  .topdiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    width: 139px;
+    height: 36.984px;
+    flex-shrink: 0;
+  }
+  #helpcentertext {
+    display: none;
+  }
+  #topdivleft {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #orders {
+    text-decoration: none;
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  #cartbox {
+    text-decoration: none;
+    display: flex;
+    width: 52px;
+    height: 28.8px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #26db2e;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .searchbar {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .Header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #searchbar {
+    width: 328px;
+    height: 25px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: rgba(108, 40, 149, 0.15);
+    border: none;
+    color: #969696;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .secondbar {
+    width: 100vw;
+    background: #dab34c;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .the2ndbardiv {
+    margin-left: 13px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .roundright {
+    border-radius: 0px 5px 5px 0px;
+  }
+  .firstbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .secondbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+  #subbox2 {
+    display: flex;
+    width: 109px;
+    height: 19px;
+    /* border-radius: 5px 0px 0px 5px; */
+    background: white;
+    flex-shrink: 0;
+    color: black;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  #subbox {
+    display: flex;
+    /* background: #e73e00; */
+    color: white;
+    width: 109px;
+    height: 19px;
+    border-radius: 5px 0px 0px 5px;
+    background: #e73e00;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+  .commingleft {
+    border-radius: 5px 0px 0px 5px;
+  }
+  .secondbar button {
+    position: relative;
+    color: #000;
+    /* font-family: SeoulHangang CEB; */
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+    background: white;
+    border: none;
+    filter: drop-shadow(4px 0px 6px rgba(0, 0, 0, 0.1))
+      drop-shadow(-4px 0px 6px rgba(0, 0, 0, 0.1));
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    left: -7px;
+  }
+  .categoryboxcenter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .Categorybox {
+    gap: 22px;
+    width: 328px;
+    height: 39px;
+    flex-shrink: 0;
+    background: #fff;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.09);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .onecategory img {
+    width: 20px;
+    height: 20px;
+  }
+  .onecategory a {
+    text-decoration: none;
+    color: #797272;
+    font-family: Roboto;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 10px; /* 142.857% */
+  }
+  .onecategory {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .shopDept {
+    display: none;
+  }
+  .pcimg {
+    display: none;
+  }
+  .carsoselmobilediv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgslider {
+    width: 328px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .SpecialDeal {
+    width: 328px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .carshopdealdiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  #spcialdealimg {
+    color: transparent;
+    object-fit: cover;
+    width: 83px;
+    height: 96px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 7px solid white;
+    /* background: #FAFAFA; */
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.09);
+  }
+  .actualspedeal {
+    gap: 9px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 328px;
+    height: 126px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: #d9d9d9;
+  }
+  .markettop {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .shopdiv button {
+    width: 102.19px;
+    height: 19.333px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #d0ab49;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+  }
+  .oneimgmarket button {
+    display: none;
+  }
+  .onemarketbox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .onemarketbox p {
+    color: #000;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .SpecialDeal h2 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .oneimgmarket {
+    padding: 10px;
+    overflow-x: scroll;
+    gap: 10px;
+    display: flex;
+    width: 308px;
+    height: 100px;
+    flex-shrink: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    background: rgba(108, 40, 149, 0.1);
+    align-items: flex-start;
+    overflow-y: hidden;
+  }
+  .shopdiv h2 {
+    display: flex;
+    width: 114.159px;
+    height: 19.333px;
+    flex-shrink: 0;
+    border-radius: 5px 5px 0px 0px;
+    background: #6c2895;
+    color: white;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .shopdiv {
+    margin-top: 15px;
+    height: 20px;
+    width: 328px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #marketimg {
+    border-radius: 7px;
+    width: 80.658px;
+    height: 76.413px;
+  }
+  .specialdealmobile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .oneleveldivdaily h2 {
+    margin: 0;
+
+    color: #fff;
+    font-family: Roboto;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .oneleveldivdaily h1 {
+    margin: 0;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .oneleveldivdaily {
+    height: 38px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 328px;
+    border-radius: 2px;
+    background: #26db2e;
+  }
+  .oneproduct {
+    width: 200px;
+    height: 278px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #fff;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  }
+  .productimg {
+    margin-top: -38px;
+    margin-left: 6px;
+    width: 188px;
+    height: 122px;
+    flex-shrink: 0;
+    border-radius: 7px;
+  }
+  .oneproductc1 {
+    margin-right: 8px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin-left: 168px;
+  }
+  .oneproductc1 h6 {
+    margin: 0;
+    width: 20px;
+    height: 14px;
+    border-radius: 2px;
+    background: #e8e8e8;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #yt {
+    color: red;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+  #star {
+    color: yellow;
+  }
+  .oneproduct h1 {
+    margin-left: 6px;
+    margin-top: 0%;
+    color: #000;
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .oneproductc2 {
+    margin-top: 7px;
+    margin-left: 6px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    color: #000;
+    font-family: Roboto;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .productc2size {
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .oneproductc3 {
+    margin-left: 6px;
+    margin-top: 8px;
+    gap: 1px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .oneproductc3 div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+  }
+  .oneproductc3 h4 {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  #oneproductc3img {
+    color: transparent;
+    width: 23px;
+    height: 21px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #c6c5c9;
+  }
+  .oneproductc4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 188px;
+    height: 33px;
+    margin: 6px;
+    background: #dab34c;
+    border-radius: 7px;
+  }
+  .productc4div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  .productc4div h3 {
+    margin: 0;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .productc4div strike {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .productc4btn {
+    border-radius: 7px;
+    width: 59px;
+    height: 25px;
+    flex-shrink: 0;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .productc4btn button {
+    color: white;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    background: #dab34c;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .productc4btn button:disabled,
+  button[disabled] {
+    background: #bfbdbd;
+  }
+  .productc4btn h2 {
+    font-size: 18px;
+    color: #dab34c;
+    margin: 0;
+    margin-top: 4px;
+  }
+
+  .productc2size h4 {
+    margin: 0;
+    padding: 1px 3px 1px 3px;
+    border-radius: 2px;
+    border: 1px solid #d9d9d9;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .multiproducts {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    gap: 10px;
+    width: 318px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .product {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .productcatnamebtn button {
+    width: 74px;
+    height: 16px;
+    border-radius: 3px;
+    background: #dab34c;
+    flex-shrink: 0;
+    border: none;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .productcatnamebtn h2 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .productcatnamebtn {
+    width: 328px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .category {
+    overflow-y: hidden;
+    height: 285px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: center;
+    align-items: center;
+  }
+  .oneproductc2 h5 {
+    margin: 0;
+  }
+  .mobileads {
+    border: 7px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: transparent;
+    object-fit: cover;
+    width: 314px;
+    height: 232px;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.09);
+  }
+  .abovefooter {
+    width: 328px;
+    height: 188px;
+  }
+  .footerimg {
+    margin-top: 65px;
+    width: 95px;
+    height: 26.018px;
+    flex-shrink: 0;
+  }
+  .footlinksall {
+    gap: 34.75px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .footlinkdiv h3 {
+    margin: 2px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .footlinkdiv h2 {
+    margin-bottom: 0;
+    color: #000;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .lowerfooterdiv {
+    margin-top: 85px;
+  }
+  .lowerfooter :nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .lowerfooter h2 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .lowerfooter h3 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .footer {
+    height: 90px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .lowerfooter {
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .sideads {
+    display: none;
+  }
+  .gridentcenter {
+    margin-top: -18px;
+    height: 45px;
+    width: 100vw;
+  }
+  .someothercoloredarea {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .lowerfooterdiv {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background: #d9d9d9;
+    flex-direction: row;
+  }
+  .icons div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+  }
+  .icons {
+    margin-top: -20px;
+  }
+  .icons h2 {
+    margin: 0;
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
